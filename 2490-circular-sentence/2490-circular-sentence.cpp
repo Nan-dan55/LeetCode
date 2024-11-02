@@ -2,9 +2,9 @@ class Solution {
 public:
     bool isCircularSentence(string s) {
         int n=s.size();
-        char a= 32;
+        
         for(int i=0;i<n;i++){
-            if(s[i]==a){
+            if(s[i]==32){
                if(i==0){
                 return false;
                }
